@@ -37,3 +37,11 @@ body {
  body { 
 text-align: left;
  }
+
+ hr  {
+height: 2px;
+background-color: brown;
+border: none
+
+ }
+ 
