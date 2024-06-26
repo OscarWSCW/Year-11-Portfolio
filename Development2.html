@@ -20,10 +20,68 @@
       <hr>
      <h3>Task one: Replay</h3>
      
-     <h1>Development</h1>
-<p>Write what you did</p>
-<img src="imageFileName">
+     <h2>Development</h2>
+<p>I made replay option at the end of the game that asks you 
+  if you want to play the game again or not.</p>
+<img src="Capture.PNG">
+<hr>
+<h3>Testing</h3>
+<table>
+ 
+    <thead>
+      <tr>
+        <th>Test/Input</th>
+    
+        <th>Expectation</th>
+      
+        <th>Output</th>
 
+      </tr>
+    </thead>
+
+    <!-- Test 1 -->
+    <tr>
+      <td>"yes"</td> <!-- Input -->
+      <td>The game should restart</td><!-- cExpectation -->
+      <td><img class="output" src="hangman replay error.PNG"/></td><!-- Output/Screenshot -->
+    </tr>
+
+    <!-- Test 2 -->
+    <tr>
+        <td>"No"</td> <!-- Input -->
+        <td>The game should not restart</td><!-- cExpectation -->
+        <td><img class="output" src="no replay.PNG"/></td><!-- Output/Screenshot -->
+      </tr>
+
+    <!-- Test 3 -->
+    <tr>
+        <td>""</td> <!-- Input -->
+        <td>The game should not restart</td><!-- cExpectation -->
+        <td><img class="output" src="blank replay.PNG"/></td><!-- Output/Screenshot -->
+      </tr>
+ </table>
+<hr>
+<h3>Feedback</h3>
+<p>Feedback from person 1</p>
+<p>Feedback from person 2</p>
+
+<p>Feedback from person 1</p>
+<p>Feedback from person 2</p>
+<hr>
+<h3>Improvements</h3>
+<p>I changed the code so when you say yes the game will replay itself.</p>
+<img src="replay yes..PNG">
+
+<hr>
+
+<h3>Task two: Conclusion</h3>
+     
+     <h2>Development</h2>
+<p>Made a conclution that tells you if you won the game or not
+
+</p>
+<img src="conclude if loss or win.PNG">
+<hr>
 <h3>Testing</h3>
 <table>
  
@@ -32,33 +90,25 @@
         <th>Test/Input</th>
         <th>Expectation</th>
         <th>Output</th>
+
       </tr>
     </thead>
 
     <!-- Test 1 -->
     <tr>
-      <td>""</td> <!-- Input -->
-      <td>What happens?</td><!-- cExpectation -->
-      <td><img class="output" src="placeholder.png"/></td><!-- Output/Screenshot -->
+      <td>"Get the word wrong"</td> <!-- Input -->
+      <td>Should say "game over"</td><!-- cExpectation -->
+      <td><img class="output" src="game over.PNG"/></td><!-- Output/Screenshot -->
     </tr>
 
     <!-- Test 2 -->
     <tr>
-        <td>""</td> <!-- Input -->
-        <td>What happens?</td><!-- cExpectation -->
-        <td><img class="output" src="placeholder.png"/></td><!-- Output/Screenshot -->
+        <td>"Get the word right"</td> <!-- Input -->
+        <td>Should not say game over and should congratulate you</td><!-- cExpectation -->
+        <td><img class="output" src="won the game.PNG"/></td><!-- Output/Screenshot -->
       </tr>
-
-    <!-- Test 3 -->
-    <tr>
-        <td>""</td> <!-- Input -->
-        <td>What happens?</td><!-- cExpectation -->
-        <td><img class="output" src="placeholder.png"/></td><!-- Output/Screenshot -->
-      </tr>
-
-  </table>
-
-  
+ </table>
+<hr>
 <h3>Feedback</h3>
 <h4>Question 1</h4>
 <p>Feedback from person 1</p>
@@ -66,10 +116,9 @@
 <h4>Question 2</h4>
 <p>Feedback from person 1</p>
 <p>Feedback from person 2</p>
-
+<hr>
 <h3>Improvements</h3>
 <p>Write what you changed</p>
 <img src="imageFileName">
-
 </body>
 </html>
